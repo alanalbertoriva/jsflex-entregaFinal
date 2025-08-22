@@ -3,7 +3,7 @@ async function displayAnimalsAdopted() {
     animals = localStorage.getItem('dbAnimals') ? JSON.parse(localStorage.getItem('dbAnimals')) : await fetchAnimals();
     const container = document.getElementById('contenedorAnimalesAdoptados');
 
-    animals.filter(animal => animal.adoptionStatus === "unavailable").forEach(animal => {
+    animals.filter(animal => animal.adoptionStatus === "unavailable" && animal.adopter.name !== "").forEach(animal => {
         const animalCard = document.createElement('div');
         animalCard.className = 'col-md-4 mb-4';
 
