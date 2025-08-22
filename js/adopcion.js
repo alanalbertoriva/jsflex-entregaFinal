@@ -42,16 +42,18 @@ if(btnSubmit) {
             denyButtonText: "Me arrepentí"
         }).then((result) => {
             if (result.isConfirmed) {
-                Swal.fire(`Gracias ${adopterName}, tu adopción ha sido registrada exitosamente. Te estaremos contactando.`, "", "success");
-                localStorage.removeItem('animalId');
-                localStorage.removeItem('animalIdName');
-                let adopter = {
-                    name: adopterName,
-                    email: adopterEmail,
-                    phone: adopterPhone
-                };
-                updateAnimalAdoptionStatus(animalId, "unavailable", adopter);
-                window.location.href = '../index.html';
+                Swal.fire(`Gracias ${adopterName}, tu adopción ha sido registrada exitosamente. Te estaremos contactando.`, "", "success")
+                .then(() => {
+                    localStorage.removeItem('animalId');
+                    localStorage.removeItem('animalIdName');
+                    let adopter = {
+                        name: adopterName,
+                        email: adopterEmail,
+                        phone: adopterPhone
+                    };
+                    updateAnimalAdoptionStatus(animalId, "unavailable", adopter);
+                    window.location.href = '../index.html';
+                });
             } else if (result.isDenied) {
                 Swal.fire("Cancelamos tu solicitud.", "", "info");
                 localStorage.removeItem('animalId');
