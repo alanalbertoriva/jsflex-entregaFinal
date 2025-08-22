@@ -1,0 +1,16 @@
+span {
+    font-weight: 500;
+}
+
+.cleanLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.textCardSize {
+  height: 4rem;
+}
+
+.textSize {
+  height: 250px;
+}

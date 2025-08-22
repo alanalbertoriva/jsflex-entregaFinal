@@ -1,0 +1,203 @@
+
+[
+    {
+        "id": 1,
+        "name": "Luna",
+        "species": "Perro",
+        "gender": "Hembra",
+        "age": 3,
+        "description": "Una perra amigable y juguetona.",
+        "image": "../img/luna.png",
+        "adoptionStatus": "inprogress",
+        "author" : {
+            "name": "Alan Riva",
+            "email": "abc@hotmail.com",
+            "phone": "1122334455"
+        },
+        "adopter": {
+            "name": "",
+            "email": "",
+            "phone": ""
+        }
+    },
+    {
+        "id": 2,
+        "name": "Miau",
+        "species": "Gato",
+        "gender" : "Macho",
+        "age": 2,
+        "description": "Un gato curioso y cariñoso.",
+        "image": "../img/miau.png",
+        "adoptionStatus": "available",
+        "author" : {
+            "name": "Alan Riva",
+            "email": "abc@hotmail.com",
+            "phone": "1122334455"
+        },
+        "adopter": {
+            "name": "",
+            "email": "",
+            "phone": ""
+        }
+    },
+    {
+        "id": 3,
+        "name": "Leila",
+        "species": "Perro",
+        "gender" :"Hembra",
+        "age": 1,
+        "description": "Una perra super compañera.",
+        "image": "../img/leila.png",
+        "adoptionStatus": "available",
+        "author" : {
+            "name": "Juan Perez",
+            "email": "juanperez@gmail.com",
+            "phone": "1144556677"
+        },
+        "adopter": {
+            "name": "",
+            "email": "",
+            "phone": ""
+        }
+    },
+    {
+        "id": 4,
+        "name": "Lorenzo",
+        "species": "Gato",
+        "gender": "Macho",
+        "age": 5,
+        "description": "Un gato increiblemente compañero.",
+        "image": "../img/lorenzo.png",
+        "adoptionStatus": "available",
+        "author" : {
+            "name": "Enzo Gonzalez",
+            "email": "enzogonzalez@gmail.com",
+            "phone": "1155443322"
+        },
+        "adopter": {
+            "name": "",
+            "email": "",
+            "phone": ""
+        }
+    },
+    {
+        "id": 5,
+        "name": "Pedro",
+        "species": "Perro",
+        "gender": "Macho",
+        "age": 2,
+        "description": "Un perro juguetón y leal.",
+        "image": "../img/pedro.png",
+        "adoptionStatus": "available",
+        "author" : {
+            "name": "Cristian Sanchez",
+            "email": "cristiansanchez@hotmail.com",
+            "phone": "1177889966"
+        },
+        "adopter": {
+            "name": "",
+            "email": "",
+            "phone": ""
+        }
+    },
+    {
+        "id": 6,
+        "name": "Jaz",
+        "species": "Perro",
+        "gender": "Hembra",
+        "age": 1,
+        "description": "Una perra de departamento tamaño mediano.",
+        "image": "../img/luna.png",
+        "adoptionStatus": "available",
+        "author" : {
+            "name": "Brenda Lopez",
+            "email": "brendalopez.q@gmail.com",
+            "phone": "1133223344"
+        },
+        "adopter": {
+            "name": "",
+            "email": "",
+            "phone": ""
+        }
+    },
+    {
+        "id": 7,
+        "name": "Juan",
+        "species": "Gato",
+        "gender": "Macho",
+        "age": 1,
+        "description": "Un gato para cualquier familia.",
+        "image": "../img/miau.png",
+        "adoptionStatus": "available",
+        "author" : {
+            "name": "Juan Heyer",
+            "email": "juan.heyer@gmail.com",
+            "phone": "1123456789"
+        },
+        "adopter": {
+            "name": "",
+            "email": "",
+            "phone": ""
+        }
+    },
+    {
+        "id": 8,
+        "name": "Titan",
+        "species": "Perro",
+        "gender": "Macho",
+        "age": 2,
+        "description": "Un perro de raza que busca un segunda oportunidad.",
+        "image": "../img/pedro.png",
+        "adoptionStatus": "available",
+        "author" : {
+            "name": "Pablo Gomez",
+            "email": "pablogomez@gmail.com",
+            "phone": "1122332244"
+        },
+        "adopter": {
+            "name": "",
+            "email": "",
+            "phone": ""
+        }
+    },
+    {
+        "id": 9,
+        "name": "Jaqui",
+        "species": "Gato",
+        "gender": "Hembra",
+        "age": 3,
+        "description": "Una gata dulce y cariñosa.",
+        "image": "../img/lorenzo.png",
+        "adoptionStatus": "available",
+        "author" : {
+            "name": "Teresa Martinez",
+            "email": "teremartinez@yahoo.com.ar",
+            "phone": "1190908787"
+        },
+        "adopter": {
+            "name": "",
+            "email": "",
+            "phone": ""
+        }
+    },
+    {
+        "id": 10,
+        "name": "Luana",
+        "species": "Perro",
+        "gender": "Hembra",
+        "age": 1,
+        "description": "Una perra sin miedo a nada.",
+        "image": "../img/leila.png",
+        "adoptionStatus": "unavailable",
+        "author" : {
+            "name": "Teresa Martinez",
+            "email": "teremartinez@yahoo.com.ar",
+            "phone": "1190908787"
+        },
+        "adopter": {
+            "name": "Juan Gimenez",
+            "email": "juang@gmail.com",
+            "phone": "1122332233"
+        }
+    }
+]
